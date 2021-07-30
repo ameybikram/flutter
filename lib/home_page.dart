@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   final String name = "Code";
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(  // A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. It provides APIs for showing drawers, snack bars and bottom sheets.
       appBar: AppBar(
         title: Text("Catalog App"),
       ), // App header
@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
           child: Text('Welcome to $days of flutter by $name'),
         ),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(), //footer
     );
   }
 }
